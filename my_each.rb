@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
+collection = []
+
+def my_each(words) do |word| # put argument(s) here
   # code here
+  puts word
 end
