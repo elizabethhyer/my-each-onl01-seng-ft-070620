@@ -5,11 +5,11 @@ def my_each(words) # put argument(s) here
   if block_given?
   x = 0 
   
-  while x < word.length 
-  yield(word[x])
+  while x < words.length 
+  yield(words[x])
   x = x + 1 
   end 
-    word
+    words
   else
    puts "Where's my block?"
   end 
