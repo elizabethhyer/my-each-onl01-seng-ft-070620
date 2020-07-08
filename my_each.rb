@@ -11,7 +11,7 @@ def my_each(words) # put argument(s) here
   end 
     words
   else
-   puts "Where's my block?"
+   "Where's my block?"
   end 
 end 
 
