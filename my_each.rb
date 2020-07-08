@@ -11,6 +11,6 @@ def my_each(words) do |word| # put argument(s) here
   end 
     words
   else
-    "Where's my block?"
+   puts "Where's my block?"
   end 
 end 
